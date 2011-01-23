@@ -10,6 +10,8 @@ Source0:	http://biopython.org/DIST/%{module}-%{version}.tar.gz
 URL:		http://biopython.org/
 BuildRequires:	libstdc++-devel
 BuildRequires:	python-devel
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python-libs
 BuildRequires:	python-mx-TextTools
 BuildRequires:	python-Numeric
