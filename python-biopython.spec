@@ -2,7 +2,7 @@
 Summary:	Python tools for computational molecular biology
 Name:		python-%{module}
 Version:	1.56
-Release:	0.1
+Release:	1
 License:	MIT
 Group:		Python/Libraries
 Source0:	http://biopython.org/DIST/%{module}-%{version}.tar.gz
