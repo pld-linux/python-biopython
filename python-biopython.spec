@@ -1,12 +1,12 @@
 %define module biopython
 Summary:	Python tools for computational molecular biology
 Name:		python-%{module}
-Version:	1.57
+Version:	1.58
 Release:	1
 License:	MIT
 Group:		Python/Libraries
 Source0:	http://biopython.org/DIST/%{module}-%{version}.tar.gz
-# Source0-md5:	b095f038684613573fcffb16593a702a
+# Source0-md5:	5c48a52a7bbdda032f1e71b91650e4ca
 URL:		http://biopython.org/
 BuildRequires:	libstdc++-devel
 BuildRequires:	python-devel
