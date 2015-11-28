@@ -31,14 +31,12 @@ biology.
 %setup -q -n %{module}-%{version}
 
 %build
-echo y | %{__python} setup.py build
+echo y | %py_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-echo y | %{__python} setup.py install \
-		--optimize=2 \
-		--root=$RPM_BUILD_ROOT
+echo y | %py_install
 
 %py_postclean
 
