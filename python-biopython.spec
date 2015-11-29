@@ -8,6 +8,7 @@ Group:		Python/Libraries
 Source0:	http://biopython.org/DIST/%{module}-%{version}.tar.gz
 # Source0-md5:	5c48a52a7bbdda032f1e71b91650e4ca
 URL:		http://biopython.org/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	libstdc++-devel
 BuildRequires:	python-devel
 BuildRequires:	python-modules
